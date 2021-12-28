@@ -1,5 +1,10 @@
 
-
+/**
+ * This is Agecalculation Function
+ * @param {*} name 
+ * @param {*} age 
+ * @returns 
+ */
 function ageCal (name, age){
 
      let date = new Date();
@@ -15,6 +20,12 @@ function ageCal (name, age){
 
 };
 
+
+/**
+ * This is Age stastus Function
+ * @param {*} age 
+ * @returns 
+ */
 function ageStatus (age){
 
      if (age > 0 && age < 10) {
